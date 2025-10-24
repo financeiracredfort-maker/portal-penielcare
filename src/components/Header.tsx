@@ -3,6 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { MessageCircle, Menu, X, Phone } from "lucide-react";
 import { cn } from "@/lib/utils";
+import logoFull from "@/assets/logo-full.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,8 +15,11 @@ const Header = () => {
     { name: "Início", path: "/" },
     { name: "Clínicas", path: "/clinicas" },
     { name: "Serviços", path: "/servicos" },
-    { name: "Sobre", path: "/sobre-peniel" },
+    { name: "Como Funciona", path: "/como-funciona" },
+    { name: "Depoimentos", path: "/depoimentos" },
     { name: "Blog", path: "/blog" },
+    { name: "FAQ", path: "/faq" },
+    { name: "Sobre", path: "/sobre-peniel" },
     { name: "Contato", path: "/contato" },
   ];
 
@@ -28,12 +32,12 @@ const Header = () => {
         <div className="container mx-auto px-4">
           <div className="flex h-16 items-center justify-between">
             {/* Logo */}
-            <Link to="/" className="flex items-center space-x-2">
-              <div className="flex items-center">
-                <span className="text-2xl font-bold gradient-primary bg-clip-text text-transparent">
-                  PENIEL
-                </span>
-              </div>
+            <Link to="/" className="flex items-center">
+              <img 
+                src={logoFull} 
+                alt="PENIEL - Rede nacional de clínicas" 
+                className="h-10 w-auto md:h-12"
+              />
             </Link>
 
             {/* Desktop Navigation */}

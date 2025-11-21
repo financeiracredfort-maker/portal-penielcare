@@ -14,7 +14,6 @@ const Index = () => {
       <main>
         <HeroSection />
         <HowItWorks />
-        <ClinicSearch />
         <Differentials />
         <TestimonialSection />
         <CTASection />

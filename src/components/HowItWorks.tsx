@@ -5,20 +5,20 @@ const steps = [
   {
     icon: FileSearch,
     number: "01",
-    title: "Avaliação inicial",
-    description: "Entendemos sua situação com empatia e sigilo total. Nossa equipe especializada analisa cada caso individualmente.",
+    title: "Atendimento Imediato",
+    description: "Contato via WhatsApp, telefone ou formulário. Nossa equipe avalia a urgência e inicia o processo em minutos.",
   },
   {
     icon: Building2,
     number: "02",
-    title: "Encaminhamento",
-    description: "Escolha segura entre clínicas credenciadas e verificadas pela PENIEL em todo o Brasil.",
+    title: "Remoção e Encaminhamento",
+    description: "Organizamos o resgate com equipe especializada e direcionamos para a clínica mais adequada da sua região.",
   },
   {
     icon: HeartHandshake,
     number: "03",
-    title: "Acompanhamento",
-    description: "Suporte contínuo à família durante todo o tratamento, com comunicação transparente e humanizada.",
+    title: "Suporte Contínuo",
+    description: "Acompanhamento à família e assistência durante toda a jornada de recuperação.",
   },
 ];
 
@@ -27,9 +27,9 @@ const HowItWorks = () => {
     <section className="py-20 bg-muted">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="mb-4">Como Funciona</h2>
+          <h2 className="mb-4">Como Funciona o Atendimento PENIEL</h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Um processo simples e seguro, pensado para oferecer o melhor suporte quando você mais precisa
+            Cuidamos de todo o processo — você só precisa entrar em contato
           </p>
         </div>
 
@@ -68,7 +68,9 @@ const HowItWorks = () => {
 
         <div className="text-center">
           <Button variant="hero" size="lg" asChild>
-            <a href="#avaliacao">Iniciar Avaliação Agora</a>
+            <a href="https://wa.me/5511999999999?text=Preciso%20de%20resgate%20urgente.%20Vim%20pelo%20site%20PENIEL.">
+              Solicitar Atendimento Agora
+            </a>
           </Button>
         </div>
       </div>

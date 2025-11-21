@@ -1,10 +1,10 @@
 import { Button } from "@/components/ui/button";
-import { MessageCircle, FileText } from "lucide-react";
+import { MessageCircle, Phone } from "lucide-react";
 import heroImage from "@/assets/hero-consultation.jpg";
 
 const HeroSection = () => {
   const whatsappNumber = "5511999999999";
-  const whatsappMessage = encodeURIComponent("Olá, vim pelo site PENIEL e preciso de ajuda");
+  const whatsappMessage = encodeURIComponent("Preciso de resgate urgente. Vim pelo site PENIEL.");
 
   return (
     <section className="relative min-h-[600px] lg:min-h-[700px] flex items-center overflow-hidden">
@@ -28,11 +28,11 @@ const HeroSection = () => {
           </div>
           
           <h1 className="text-white mb-6 animate-fade-in">
-            Ajuda imediata para internação e remoção — com acolhimento humano e sigilo total
+            Resgate e Internação 24h — Atendimento Imediato em Todo o Brasil
           </h1>
           
           <p className="text-white/90 text-lg md:text-xl mb-8 max-w-2xl leading-relaxed">
-            A PENIEL conecta você às melhores clínicas de recuperação do Brasil. Atendimento 24h, orientação familiar e remoção em qualquer região.
+            Serviço especializado de avaliação, remoção voluntária e involuntária. Nossa equipe cuida de tudo: da orientação familiar até o encaminhamento para a clínica ideal.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
@@ -48,7 +48,7 @@ const HeroSection = () => {
                 rel="noopener noreferrer"
               >
                 <MessageCircle className="h-5 w-5 group-hover:scale-110 transition-transform" />
-                Falar Agora no WhatsApp
+                Solicitar Resgate Agora
               </a>
             </Button>
             
@@ -58,9 +58,9 @@ const HeroSection = () => {
               asChild
               className="bg-white/10 border-white text-white hover:bg-white hover:text-primary backdrop-blur-sm"
             >
-              <a href="#avaliacao">
-                <FileText className="h-5 w-5" />
-                Avaliação Gratuita
+              <a href="tel:+5511999999999">
+                <Phone className="h-5 w-5" />
+                📞 Atendimento 24h
               </a>
             </Button>
           </div>

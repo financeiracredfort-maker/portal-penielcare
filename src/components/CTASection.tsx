@@ -3,7 +3,7 @@ import { MessageCircle, Phone } from "lucide-react";
 
 const CTASection = () => {
   const whatsappNumber = "5511999999999";
-  const whatsappMessage = encodeURIComponent("Olá, preciso de ajuda urgente. Vim pelo site PENIEL");
+  const whatsappMessage = encodeURIComponent("URGENTE - Preciso de resgate imediato. Vim pelo site PENIEL.");
 
   return (
     <section className="py-20 gradient-primary relative overflow-hidden">
@@ -16,11 +16,11 @@ const CTASection = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl mx-auto text-center text-white">
           <h2 className="text-white mb-6">
-            Precisa de ajuda agora?
+            Atendimento de Emergência 24h
           </h2>
           <p className="text-xl text-white/90 mb-8 leading-relaxed">
-            Nossa equipe está pronta 24 horas por dia, 7 dias por semana. 
-            Você não está sozinho nessa jornada.
+            Resgate voluntário ou involuntário em qualquer cidade do Brasil. 
+            Equipe especializada pronta para agir com agilidade, sigilo e respeito.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
@@ -28,7 +28,7 @@ const CTASection = () => {
               variant="secondary"
               size="xl"
               asChild
-              className="group"
+              className="group text-lg px-8"
             >
               <a
                 href={`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`}
@@ -36,7 +36,7 @@ const CTASection = () => {
                 rel="noopener noreferrer"
               >
                 <MessageCircle className="h-5 w-5 group-hover:scale-110 transition-transform" />
-                WhatsApp - Resposta Imediata
+                Solicitar Resgate Urgente
               </a>
             </Button>
 
@@ -44,11 +44,11 @@ const CTASection = () => {
               variant="outline"
               size="xl"
               asChild
-              className="bg-white/10 border-white text-white hover:bg-white hover:text-primary backdrop-blur-sm"
+              className="bg-white/10 border-white text-white hover:bg-white hover:text-primary backdrop-blur-sm text-lg px-8"
             >
-              <a href="tel:0800123456">
+              <a href="tel:+5511999999999">
                 <Phone className="h-5 w-5" />
-                0800 123 456
+                Ligar: (11) 99999-9999
               </a>
             </Button>
           </div>

@@ -3,7 +3,7 @@ import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import HowItWorks from "@/components/HowItWorks";
 import Differentials from "@/components/Differentials";
-import ClinicSearch from "@/components/ClinicSearch";
+import PartnersCarousel from "@/components/PartnersCarousel";
 import TestimonialSection from "@/components/TestimonialSection";
 import CTASection from "@/components/CTASection";
 
@@ -15,6 +15,7 @@ const Index = () => {
         <HeroSection />
         <HowItWorks />
         <Differentials />
+        <PartnersCarousel />
         <TestimonialSection />
         <CTASection />
       </main>

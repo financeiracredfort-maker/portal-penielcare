@@ -1,0 +1,28 @@
+import { Phone, MessageCircle } from "lucide-react";
+
+const MobileStickyBar = () => {
+  return (
+    <div className="fixed bottom-0 left-0 right-0 z-40 lg:hidden bg-card border-t shadow-lg safe-area-inset-bottom">
+      <div className="grid grid-cols-2 divide-x">
+        <a
+          href="tel:0800123456"
+          className="flex items-center justify-center gap-2 py-4 text-primary font-semibold hover:bg-primary/5 transition-colors"
+        >
+          <Phone className="w-5 h-5" />
+          <span>Ligar Agora</span>
+        </a>
+        <a
+          href="https://wa.me/5511999999999?text=Preciso%20de%20ajuda%20urgente"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center justify-center gap-2 py-4 bg-secondary text-secondary-foreground font-semibold hover:bg-secondary-dark transition-colors"
+        >
+          <MessageCircle className="w-5 h-5" />
+          <span>WhatsApp</span>
+        </a>
+      </div>
+    </div>
+  );
+};
+
+export default MobileStickyBar;

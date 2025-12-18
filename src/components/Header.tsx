@@ -13,12 +13,9 @@ const Header = () => {
 
   const navigation = [
     { name: "Início", path: "/" },
-    { name: "Clínicas", path: "/clinicas" },
     { name: "Serviços", path: "/servicos" },
-    { name: "Como Funciona", path: "/como-funciona" },
     { name: "Depoimentos", path: "/depoimentos" },
     { name: "Blog", path: "/blog" },
-    { name: "FAQ", path: "/faq" },
     { name: "Sobre", path: "/sobre-peniel" },
     { name: "Contato", path: "/contato" },
   ];

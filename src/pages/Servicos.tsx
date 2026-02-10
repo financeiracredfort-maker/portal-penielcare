@@ -133,9 +133,13 @@ const Servicos = () => {
                       </div>
 
                       <Button variant="outline" className="w-full" asChild>
-                        <Link to={`/servicos/${servico.slug}`}>
+                        <a
+                          href={`https://wa.me/5511999999999?text=${encodeURIComponent(`Olá, vim pelo site PENIEL e gostaria de saber mais sobre ${servico.title}`)}`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
                           Saiba Mais
-                        </Link>
+                        </a>
                       </Button>
                     </CardContent>
                   </Card>
@@ -237,14 +241,13 @@ const Servicos = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button variant="hero" size="lg" asChild>
-                <a href="https://wa.me/5511999999999?text=Olá,%20preciso%20de%20ajuda">
+                <a
+                  href="https://wa.me/5511999999999?text=Olá,%20preciso%20de%20ajuda"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Falar no WhatsApp
                 </a>
-              </Button>
-              <Button variant="outline" size="lg" asChild>
-                <Link to="/contato">
-                  Preencher Formulário
-                </Link>
               </Button>
             </div>
           </div>

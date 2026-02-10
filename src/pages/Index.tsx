@@ -4,7 +4,7 @@ import LiveAvailabilityBadge from "@/components/LiveAvailabilityBadge";
 import HeroSection from "@/components/HeroSection";
 import QuickAssessmentForm from "@/components/QuickAssessmentForm";
 import StatsSection from "@/components/StatsSection";
-import BenefitsSection from "@/components/BenefitsSection";
+import HowItWorks from "@/components/HowItWorks";
 import TrustBadges from "@/components/TrustBadges";
 import TestimonialSection from "@/components/TestimonialSection";
 import HomeFAQ from "@/components/HomeFAQ";
@@ -20,7 +20,7 @@ const Index = () => {
         <HeroSection />
         <QuickAssessmentForm />
         <StatsSection />
-        <BenefitsSection />
+        <HowItWorks />
         <TrustBadges />
         <TestimonialSection />
         <HomeFAQ />

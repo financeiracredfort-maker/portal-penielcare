@@ -4,51 +4,40 @@ import heroImage from "@/assets/hero-consultation.jpg";
 
 const HeroSection = () => {
   const whatsappNumber = "5511999999999";
-  const whatsappMessage = encodeURIComponent("Preciso de resgate urgente. Vim pelo site PENIEL.");
+  const whatsappMessage = encodeURIComponent("URGENTE - Preciso de resgate imediato. Vim pelo site PENIEL.");
 
   return (
-    <section className="relative min-h-[600px] lg:min-h-[700px] flex items-center overflow-hidden">
-      {/* Background Image with Overlay */}
+    <section className="relative min-h-[550px] lg:min-h-[620px] flex items-center overflow-hidden">
       <div className="absolute inset-0 z-0">
-        <img
-          src={heroImage}
-          alt="Consulta profissional e acolhedora"
-          className="w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-gradient-to-r from-primary/95 via-primary/85 to-primary/70" />
+        <img src={heroImage} alt="Atendimento profissional" className="w-full h-full object-cover" />
+        <div className="absolute inset-0 bg-gradient-to-r from-primary/95 via-primary/90 to-primary/75" />
       </div>
 
-      {/* Content */}
       <div className="container mx-auto px-4 relative z-10">
-        <div className="max-w-3xl">
-          <div className="inline-block mb-6">
-            <span className="bg-secondary text-secondary-foreground px-4 py-2 rounded-full text-sm font-semibold shadow-md">
-              🔒 Sigilo Garantido • Atendimento 24h
+        <div className="max-w-2xl">
+          <div className="inline-block mb-4">
+            <span className="bg-destructive/90 text-destructive-foreground px-4 py-1.5 rounded-full text-sm font-bold shadow-md animate-pulse">
+              ⚠️ Atendimento de Emergência 24h
             </span>
           </div>
           
-          <h1 className="text-white mb-6 animate-fade-in">
-            Resgate e Internação 24h — Atendimento Imediato em Todo o Brasil
+          <h1 className="text-primary-foreground mb-5 animate-fade-in leading-tight">
+            Seu Familiar Está Se Destruindo e Você Não Sabe Mais o Que Fazer?
           </h1>
           
-          <p className="text-white/90 text-lg md:text-xl mb-8 max-w-2xl leading-relaxed">
-            Serviço especializado de avaliação, remoção voluntária e involuntária. Nossa equipe cuida de tudo: da orientação familiar até o encaminhamento para a clínica ideal.
+          <p className="text-primary-foreground/90 text-lg md:text-xl mb-8 leading-relaxed">
+            Nós resgatamos quem você ama. <strong>Resgate voluntário e involuntário</strong> em qualquer cidade do Brasil com equipe especializada, sigilo total e atendimento imediato.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4">
-            <Button
-              variant="whatsapp"
-              size="xl"
-              asChild
-              className="group"
-            >
+          <div className="flex flex-col sm:flex-row gap-3">
+            <Button variant="whatsapp" size="xl" asChild className="group">
               <a
                 href={`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`}
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <MessageCircle className="h-5 w-5 group-hover:scale-110 transition-transform" />
-                Solicitar Resgate Agora
+                Pedir Resgate Agora
               </a>
             </Button>
             
@@ -56,33 +45,29 @@ const HeroSection = () => {
               variant="outline"
               size="xl"
               asChild
-              className="bg-white/10 border-white text-white hover:bg-white hover:text-primary backdrop-blur-sm"
+              className="bg-primary-foreground/10 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary backdrop-blur-sm"
             >
               <a href="tel:+5511999999999">
                 <Phone className="h-5 w-5" />
-                📞 Atendimento 24h
+                Ligar Agora
               </a>
             </Button>
           </div>
 
-          <div className="mt-8 flex items-center gap-6 text-white/80 text-sm">
+          <div className="mt-6 flex flex-wrap items-center gap-4 text-primary-foreground/80 text-sm">
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 bg-secondary rounded-full animate-pulse" />
-              <span>Resposta em até 15 minutos</span>
+              <span>Resposta em até 15 min</span>
             </div>
-            <div className="hidden sm:block w-px h-4 bg-white/30" />
-            <div className="hidden sm:flex items-center gap-2">
-              <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                <path fillRule="evenodd" d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-              </svg>
-              <span>Sem julgamentos</span>
-            </div>
+            <span className="hidden sm:inline">•</span>
+            <span>🔒 Sigilo absoluto</span>
+            <span className="hidden sm:inline">•</span>
+            <span className="hidden sm:inline">✅ Sem julgamentos</span>
           </div>
         </div>
       </div>
 
-      {/* Decorative Elements */}
-      <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-background to-transparent z-[1]" />
+      <div className="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-background to-transparent z-[1]" />
     </section>
   );
 };

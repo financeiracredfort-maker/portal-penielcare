@@ -77,7 +77,7 @@ const HowItWorks = () => {
 
             <div className="mt-8">
               <Button variant="hero" size="lg" asChild>
-                <a href="https://wa.me/5511999999999?text=Preciso%20de%20resgate%20urgente.%20Vim%20pelo%20site%20PENIEL.">
+                <a href="https://wa.me/554195777142?text=Preciso%20de%20resgate%20urgente.%20Vim%20pelo%20site%20PENIEL.">
                   Solicitar Atendimento Agora
                 </a>
               </Button>

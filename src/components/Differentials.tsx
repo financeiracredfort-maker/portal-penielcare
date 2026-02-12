@@ -4,27 +4,27 @@ const differentials = [
   {
     icon: Clock,
     title: "Atendimento Imediato",
-    description: "Resgate em poucas horas após o contato inicial, com equipe pronta 24h",
+    description: "Resposta em até 15 minutos, com equipe pronta 24h para orientar sua família",
   },
   {
     icon: Shield,
     title: "Cuidamos de Tudo",
-    description: "Da avaliação à internação — você não precisa escolher clínica, nós direcionamos",
+    description: "Da avaliação ao encaminhamento — você não precisa escolher clínica, nós direcionamos",
   },
   {
     icon: Ambulance,
-    title: "Resgate Voluntário e Involuntário",
-    description: "Equipe técnica e jurídica especializada em ambas modalidades",
+    title: "Transporte Seguro e Humanizado",
+    description: "Equipe treinada para acompanhar seu familiar com total cuidado e respeito",
   },
   {
     icon: Stethoscope,
     title: "Cobertura Nacional",
-    description: "Atuamos em todas as regiões do Brasil com parceiros credenciados",
+    description: "Mais de 50 clínicas parceiras em todas as regiões do Brasil",
   },
   {
     icon: Heart,
     title: "Sigilo Absoluto",
-    description: "Discrição total no resgate e proteção da privacidade familiar",
+    description: "Discrição total e proteção da privacidade familiar em cada etapa",
   },
 ];
 
@@ -35,7 +35,7 @@ const Differentials = () => {
         <div className="text-center mb-16">
           <h2 className="mb-4">Por Que Confiar na PENIEL</h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Serviço completo de resgate e internação — cuidamos de tudo para você
+            Apoio completo para sua família — cuidamos de tudo para você
           </p>
         </div>
 

@@ -2,19 +2,19 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { FileSearch, UserCheck, Ambulance, Building2, Heart, Clock } from "lucide-react";
+import { FileSearch, UserCheck, Building2, Heart, Clock } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const servicos = [
   {
     icon: FileSearch,
-    title: "Avaliação Inicial",
+    title: "Avaliação e Orientação",
     slug: "avaliacao-inicial",
-    description: "Primeira etapa do processo, onde entendemos sua situação com empatia e sigilo",
+    description: "Conversa acolhedora para entender sua situação e indicar o melhor caminho",
     features: [
       "Conversa confidencial com especialista",
       "Análise da situação sem julgamentos",
-      "Orientação sobre melhores opções",
+      "Orientação sobre melhores opções de tratamento",
       "Suporte emocional à família",
       "Sem compromisso ou custos",
     ],
@@ -23,44 +23,29 @@ const servicos = [
   },
   {
     icon: UserCheck,
-    title: "Remoção Voluntária",
-    slug: "remocao-voluntaria",
-    description: "Transporte seguro e humanizado para a clínica, com consentimento do paciente",
+    title: "Acompanhamento Familiar",
+    slug: "acompanhamento-familiar",
+    description: "Suporte completo à família durante toda a jornada de recuperação",
     features: [
-      "Equipe treinada e empática",
-      "Veículo discreto e confortável",
-      "Acompanhamento durante todo trajeto",
-      "Documentação completa",
-      "Comunicação com família",
+      "Orientação sobre como lidar com a situação",
+      "Suporte emocional e psicológico",
+      "Comunicação constante sobre o tratamento",
+      "Grupo de apoio para familiares",
+      "Planejamento de reinserção social",
     ],
-    duration: "Conforme distância",
+    duration: "Durante todo o tratamento",
     availability: "Agendamento flexível",
   },
   {
-    icon: Ambulance,
-    title: "Remoção Involuntária",
-    slug: "remocao-involuntaria",
-    description: "Procedimento legal e seguro para casos que necessitam intervenção",
-    features: [
-      "Orientação jurídica completa",
-      "Documentação e autorizações",
-      "Equipe especializada",
-      "Máximo respeito e dignidade",
-      "Suporte psicológico à família",
-    ],
-    duration: "Planejamento prévio",
-    availability: "Conforme necessidade",
-  },
-  {
     icon: Building2,
-    title: "Internação",
+    title: "Internação e Tratamento",
     slug: "internacao",
-    description: "Encaminhamento para clínicas credenciadas com programas adequados",
+    description: "Encaminhamento para clínicas credenciadas com programas personalizados",
     features: [
       "Clínicas verificadas pela PENIEL",
-      "Equipe multidisciplinar",
-      "Programas personalizados",
-      "Acompanhamento familiar",
+      "Equipe multidisciplinar completa",
+      "Programas terapêuticos personalizados",
+      "Acompanhamento familiar contínuo",
       "Visitas programadas",
     ],
     duration: "30 a 180 dias (média)",
@@ -78,10 +63,10 @@ const Servicos = () => {
         <section className="gradient-primary text-primary-foreground py-20">
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto text-center text-white">
-              <h1 className="text-white mb-6">Nossos Serviços</h1>
+              <h1 className="text-white mb-6">Como Podemos Ajudar</h1>
               <p className="text-xl text-white/90 leading-relaxed">
-                Soluções completas para cada etapa da jornada de recuperação, 
-                com acolhimento humanizado e profissionalismo
+                Cuidado completo para cada etapa da jornada de recuperação — 
+                da orientação ao acompanhamento contínuo
               </p>
             </div>
           </div>
@@ -183,8 +168,8 @@ const Servicos = () => {
                     },
                     {
                       step: "4",
-                      title: "Remoção",
-                      description: "Transporte seguro e humanizado até a clínica escolhida, com todo suporte necessário.",
+                      title: "Transporte",
+                      description: "Condução segura e humanizada até a clínica escolhida, com todo suporte necessário.",
                     },
                     {
                       step: "5",

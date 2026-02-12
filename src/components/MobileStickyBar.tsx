@@ -12,7 +12,7 @@ const MobileStickyBar = () => {
           <span>Ligar Agora</span>
         </a>
         <a
-          href="https://wa.me/554195777142?text=Preciso%20de%20ajuda%20urgente"
+          href="https://wa.me/554195777142?text=Ol%C3%A1%2C%20preciso%20de%20orienta%C3%A7%C3%A3o.%20Vim%20pelo%20site%20PENIEL."
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center justify-center gap-2 py-4 bg-secondary text-secondary-foreground font-semibold hover:bg-secondary-dark transition-colors"

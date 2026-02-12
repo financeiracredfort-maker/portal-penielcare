@@ -134,7 +134,7 @@ const Servicos = () => {
 
                       <Button variant="outline" className="w-full" asChild>
                         <a
-                          href={`https://wa.me/5511999999999?text=${encodeURIComponent(`Olá, vim pelo site PENIEL e gostaria de saber mais sobre ${servico.title}`)}`}
+                          href={`https://wa.me/554195777142?text=${encodeURIComponent(`Olá, vim pelo site PENIEL e gostaria de saber mais sobre ${servico.title}`)}`}
                           target="_blank"
                           rel="noopener noreferrer"
                         >
@@ -242,7 +242,7 @@ const Servicos = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button variant="hero" size="lg" asChild>
                 <a
-                  href="https://wa.me/5511999999999?text=Olá,%20preciso%20de%20ajuda"
+                  href="https://wa.me/554195777142?text=Olá,%20preciso%20de%20ajuda"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

@@ -183,7 +183,7 @@ const Depoimentos = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" variant="default" asChild>
-                  <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer">
+                  <a href="https://wa.me/554195777142" target="_blank" rel="noopener noreferrer">
                     Falar no WhatsApp Agora
                   </a>
                 </Button>

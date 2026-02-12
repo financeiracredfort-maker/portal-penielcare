@@ -70,7 +70,7 @@ const HomeFAQ = () => {
             </p>
             <Button variant="whatsapp" size="lg" asChild>
               <a
-                href="https://wa.me/5511999999999?text=Olá,%20tenho%20uma%20dúvida"
+                href="https://wa.me/554195777142?text=Olá,%20tenho%20uma%20dúvida"
                 target="_blank"
                 rel="noopener noreferrer"
               >

@@ -3,7 +3,7 @@ import { MessageCircle, Phone } from "lucide-react";
 import heroImage from "@/assets/hero-consultation.jpg";
 
 const HeroSection = () => {
-  const whatsappNumber = "5511999999999";
+  const whatsappNumber = "554195777142";
   const whatsappMessage = encodeURIComponent("Preciso de resgate urgente. Vim pelo site PENIEL.");
 
   return (
@@ -58,7 +58,7 @@ const HeroSection = () => {
               asChild
               className="bg-white/10 border-white text-white hover:bg-white hover:text-primary backdrop-blur-sm"
             >
-              <a href="tel:+5511999999999">
+              <a href="tel:+554195777142">
                 <Phone className="h-5 w-5" />
                 📞 Atendimento 24h
               </a>

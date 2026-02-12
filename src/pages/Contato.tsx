@@ -52,7 +52,7 @@ const Contato = () => {
     });
   };
 
-  const whatsappNumber = "5511999999999";
+  const whatsappNumber = "554195777142";
   const whatsappMessage = encodeURIComponent("Olá, vim pelo site PENIEL e preciso de ajuda");
 
   return (
@@ -107,7 +107,7 @@ const Contato = () => {
                     Central de atendimento 24 horas
                   </p>
                   <Button variant="outline" asChild>
-                    <a href="tel:0800123456">0800 123 456</a>
+                    <a href="tel:+554195777142">(41) 9577-7142</a>
                   </Button>
                 </CardContent>
               </Card>

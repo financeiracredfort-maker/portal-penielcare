@@ -20,7 +20,7 @@ const Header = () => {
     { name: "Contato", path: "/contato" },
   ];
 
-  const whatsappNumber = "5511999999999"; // Substitua pelo número real
+  const whatsappNumber = "554195777142";
   const whatsappMessage = encodeURIComponent("Olá, vim pelo site PENIEL e preciso de ajuda");
 
   return (
@@ -57,9 +57,9 @@ const Header = () => {
 
             {/* Desktop CTAs */}
             <div className="hidden lg:flex items-center space-x-3">
-              <a href="tel:0800123456" className="text-sm text-muted-foreground hover:text-foreground flex items-center gap-2 transition-colors">
+              <a href="tel:+554195777142" className="text-sm text-muted-foreground hover:text-foreground flex items-center gap-2 transition-colors">
                 <Phone className="h-4 w-4" />
-                <span className="font-semibold">0800 123 456</span>
+                <span className="font-semibold">(41) 9577-7142</span>
               </a>
               <Button
                 variant="whatsapp"
@@ -109,10 +109,10 @@ const Header = () => {
                 </Link>
               ))}
               <div className="pt-4 flex flex-col gap-3">
-                <a href="tel:0800123456" className="text-sm text-center">
+                <a href="tel:+554195777142" className="text-sm text-center">
                   <Button variant="outline" size="lg" className="w-full">
                     <Phone className="h-4 w-4 mr-2" />
-                    0800 123 456
+                    (41) 9577-7142
                   </Button>
                 </a>
                 <Button

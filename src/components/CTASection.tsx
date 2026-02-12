@@ -5,7 +5,7 @@ import therapyRoom from "@/assets/therapy-room.jpg";
 import clinicExterior from "@/assets/clinic-exterior.jpg";
 
 const CTASection = () => {
-  const whatsappNumber = "5511999999999";
+  const whatsappNumber = "554195777142";
   const whatsappMessage = encodeURIComponent("URGENTE - Preciso de resgate imediato. Vim pelo site PENIEL.");
 
   const clinicImages = [
@@ -81,9 +81,9 @@ const CTASection = () => {
                 asChild
                 className="bg-white/10 border-white text-white hover:bg-white hover:text-primary backdrop-blur-sm text-lg px-8"
               >
-                <a href="tel:+5511999999999">
+                <a href="tel:+554195777142">
                   <Phone className="h-5 w-5" />
-                  Ligar: (11) 99999-9999
+                  Ligar: (41) 9577-7142
                 </a>
               </Button>
             </div>

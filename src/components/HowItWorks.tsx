@@ -7,19 +7,19 @@ const steps = [
     icon: FileSearch,
     number: "01",
     title: "Atendimento Imediato",
-    description: "Contato via WhatsApp, telefone ou formulário. Nossa equipe avalia a urgência e inicia o processo em minutos.",
+    description: "Entre em contato por WhatsApp, telefone ou formulário. Nossa equipe escuta, acolhe e orienta sem julgamentos.",
   },
   {
     icon: Building2,
     number: "02",
-    title: "Remoção e Encaminhamento",
-    description: "Organizamos o resgate com equipe especializada e direcionamos para a clínica mais adequada da sua região.",
+    title: "Avaliação e Encaminhamento",
+    description: "Entendemos a situação da sua família e indicamos a clínica mais adequada da sua região, cuidando de toda a logística.",
   },
   {
     icon: HeartHandshake,
     number: "03",
     title: "Suporte Contínuo",
-    description: "Acompanhamento à família e assistência durante toda a jornada de recuperação.",
+    description: "Acompanhamento à família e ao paciente durante toda a jornada de tratamento e recuperação.",
   },
 ];
 
@@ -45,9 +45,9 @@ const HowItWorks = () => {
 
           {/* Content Side */}
           <div>
-            <h2 className="mb-4">Como Funciona o Atendimento PENIEL</h2>
+            <h2 className="mb-4">Como a PENIEL Cuida da Sua Família</h2>
             <p className="text-muted-foreground text-lg mb-8">
-              Cuidamos de todo o processo — você só precisa entrar em contato
+              Você só precisa dar o primeiro passo — nós cuidamos de todo o resto
             </p>
 
             <div className="space-y-6">
@@ -77,8 +77,8 @@ const HowItWorks = () => {
 
             <div className="mt-8">
               <Button variant="hero" size="lg" asChild>
-                <a href="https://wa.me/554195777142?text=Preciso%20de%20resgate%20urgente.%20Vim%20pelo%20site%20PENIEL.">
-                  Solicitar Atendimento Agora
+                <a href="https://wa.me/554195777142?text=Ol%C3%A1%2C%20preciso%20de%20orienta%C3%A7%C3%A3o%20sobre%20tratamento.%20Vim%20pelo%20site%20PENIEL.">
+                  Solicitar Orientação Agora
                 </a>
               </Button>
             </div>

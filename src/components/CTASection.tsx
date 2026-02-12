@@ -6,7 +6,7 @@ import clinicExterior from "@/assets/clinic-exterior.jpg";
 
 const CTASection = () => {
   const whatsappNumber = "554195777142";
-  const whatsappMessage = encodeURIComponent("URGENTE - Preciso de resgate imediato. Vim pelo site PENIEL.");
+  const whatsappMessage = encodeURIComponent("Olá, preciso de orientação urgente sobre tratamento. Vim pelo site PENIEL.");
 
   const clinicImages = [
     { src: treatmentRoom, alt: "Sala de tratamento moderna e acolhedora" },
@@ -51,11 +51,11 @@ const CTASection = () => {
 
           <div className="max-w-3xl mx-auto text-center text-white relative z-10">
             <h3 className="text-3xl md:text-4xl font-bold mb-6">
-              Atendimento de Emergência 24h
+              Sua Família Não Precisa Enfrentar Isso Sozinha
             </h3>
             <p className="text-xl text-white/90 mb-8 leading-relaxed">
-              Resgate voluntário ou involuntário em qualquer cidade do Brasil. 
-              Equipe especializada pronta para agir com agilidade, sigilo e respeito.
+              Orientação gratuita, encaminhamento para a clínica ideal e suporte completo 
+              durante toda a jornada de recuperação. Atendimento 24h em todo o Brasil.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
@@ -71,7 +71,7 @@ const CTASection = () => {
                   rel="noopener noreferrer"
                 >
                   <MessageCircle className="h-5 w-5 group-hover:scale-110 transition-transform" />
-                  Solicitar Resgate Urgente
+                  Falar com Especialista
                 </a>
               </Button>
 

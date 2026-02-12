@@ -67,13 +67,8 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/servicos/remocao-voluntaria" className="hover:text-secondary transition-colors">
-                  Remoção Voluntária
-                </Link>
-              </li>
-              <li>
-                <Link to="/servicos/remocao-involuntaria" className="hover:text-secondary transition-colors">
-                  Remoção Involuntária
+                <Link to="/servicos/orientacao-familiar" className="hover:text-secondary transition-colors">
+                  Orientação Familiar
                 </Link>
               </li>
               <li>

@@ -4,7 +4,7 @@ import heroImage from "@/assets/hero-consultation.jpg";
 
 const HeroSection = () => {
   const whatsappNumber = "554195777142";
-  const whatsappMessage = encodeURIComponent("Preciso de resgate urgente. Vim pelo site PENIEL.");
+  const whatsappMessage = encodeURIComponent("Olá, preciso de orientação para tratamento. Vim pelo site PENIEL.");
 
   return (
     <section className="relative min-h-[600px] lg:min-h-[700px] flex items-center overflow-hidden">
@@ -28,11 +28,11 @@ const HeroSection = () => {
           </div>
           
           <h1 className="text-white mb-6 animate-fade-in">
-            Resgate e Internação 24h — Atendimento Imediato em Todo o Brasil
+            Tratamento e Acolhimento 24h — Apoio Completo Para Sua Família
           </h1>
           
           <p className="text-white/90 text-lg md:text-xl mb-8 max-w-2xl leading-relaxed">
-            Serviço especializado de avaliação, remoção voluntária e involuntária. Nossa equipe cuida de tudo: da orientação familiar até o encaminhamento para a clínica ideal.
+            Orientação especializada, encaminhamento para clínicas de confiança e suporte familiar em cada etapa da jornada de recuperação. Nós cuidamos de tudo por você.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
@@ -48,7 +48,7 @@ const HeroSection = () => {
                 rel="noopener noreferrer"
               >
                 <MessageCircle className="h-5 w-5 group-hover:scale-110 transition-transform" />
-                Solicitar Resgate Agora
+                Falar com Especialista Agora
               </a>
             </Button>
             

@@ -5,8 +5,8 @@ import { MessageCircle, HelpCircle } from "lucide-react";
 const HomeFAQ = () => {
   const faqs = [
     {
-      question: "Como funciona a internação involuntária?",
-      answer: "A internação involuntária é indicada quando o dependente químico não reconhece a necessidade de tratamento e representa risco para si ou para outros. Nossa equipe especializada realiza a avaliação, orienta a família sobre os aspectos legais e executa a remoção com segurança, humanidade e discrição. Todo o processo segue as normas da Lei 10.216/2001.",
+      question: "Como funciona o processo de internação?",
+      answer: "O processo começa com uma conversa acolhedora para entender a situação da sua família. Nossa equipe avalia o caso, orienta sobre as melhores opções de tratamento e cuida de toda a logística — desde a escolha da clínica até o acompanhamento do paciente durante a internação. Tudo com sigilo e respeito.",
     },
     {
       question: "Quanto tempo dura o tratamento?",
@@ -14,7 +14,7 @@ const HomeFAQ = () => {
     },
     {
       question: "O serviço é realmente sigiloso?",
-      answer: "Sim, absolutamente. Trabalhamos com total confidencialidade. Nossos veículos são descaracterizados, nossa equipe atua de forma discreta e todas as informações são protegidas pela LGPD. Entendemos a sensibilidade deste momento e respeitamos a privacidade da família.",
+      answer: "Sim, absolutamente. Trabalhamos com total confidencialidade. Nossa equipe atua de forma discreta e todas as informações são protegidas pela LGPD. Entendemos a sensibilidade deste momento e respeitamos a privacidade da família.",
     },
     {
       question: "Vocês atendem em todo o Brasil?",
@@ -25,8 +25,8 @@ const HomeFAQ = () => {
       answer: "Os valores variam conforme o tipo de clínica, estrutura e duração do tratamento. Trabalhamos com opções que cabem em diferentes orçamentos - de clínicas populares a unidades premium. Oferecemos parcelamento facilitado e algumas opções aceitam convênios médicos. A avaliação inicial é gratuita e sem compromisso.",
     },
     {
-      question: "O que está incluso no serviço de resgate?",
-      answer: "Nosso serviço de resgate inclui: avaliação inicial com a família, orientação sobre aspectos legais, equipe especializada para remoção segura, transporte até a clínica, documentação necessária e acompanhamento durante todo o processo de internação. Após a internação, mantemos contato com a família para atualizações.",
+      question: "O que está incluso no serviço da PENIEL?",
+      answer: "Nosso serviço inclui: avaliação inicial com a família, orientação completa sobre o tratamento, indicação da clínica ideal para o caso, transporte seguro e humanizado até a unidade, documentação necessária e acompanhamento familiar durante todo o período de tratamento.",
     },
   ];
 

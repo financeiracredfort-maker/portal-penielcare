@@ -120,10 +120,10 @@ const QuickAssessmentForm = () => {
                       <SelectValue placeholder="Selecione o tipo" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="voluntary">Internação Voluntária</SelectItem>
-                      <SelectItem value="involuntary">Internação Involuntária</SelectItem>
-                      <SelectItem value="compulsory">Internação Compulsória</SelectItem>
-                      <SelectItem value="orientation">Apenas Orientação</SelectItem>
+                      <SelectItem value="voluntary">Tratamento Voluntário</SelectItem>
+                      <SelectItem value="family-support">Orientação Familiar</SelectItem>
+                      <SelectItem value="clinic-referral">Encaminhamento para Clínica</SelectItem>
+                      <SelectItem value="orientation">Ainda não sei — preciso de ajuda</SelectItem>
                     </SelectContent>
                   </Select>
                 </div>

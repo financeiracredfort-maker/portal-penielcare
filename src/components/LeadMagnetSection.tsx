@@ -32,7 +32,7 @@ const LeadMagnetSection = () => {
   const benefits = [
     "Como identificar sinais de dependência",
     "Passo a passo para conversar com o familiar",
-    "Diferenças entre internação voluntária e involuntária",
+    "Como funciona o processo de internação",
     "Direitos legais da família",
     "Como escolher a clínica ideal",
   ];

@@ -185,9 +185,9 @@ const Contato = () => {
                         <SelectValue placeholder="Selecione o tipo" />
                       </SelectTrigger>
                       <SelectContent>
-                        <SelectItem value="voluntaria">Remoção Voluntária</SelectItem>
-                        <SelectItem value="involuntaria">Remoção Involuntária</SelectItem>
-                        <SelectItem value="internacao">Internação</SelectItem>
+                        <SelectItem value="orientacao">Orientação e Avaliação</SelectItem>
+                        <SelectItem value="tratamento">Tratamento Voluntário</SelectItem>
+                        <SelectItem value="apoio-familiar">Apoio Familiar</SelectItem>
                         <SelectItem value="informacoes">Informações Gerais</SelectItem>
                       </SelectContent>
                     </Select>
@@ -272,7 +272,7 @@ const Contato = () => {
                     <div className="space-y-2 text-sm">
                       <div className="flex items-center gap-2">
                         <div className="w-2 h-2 bg-secondary rounded-full" />
-                        <span>Remoção em qualquer região</span>
+                        <span>Atendimento em qualquer região</span>
                       </div>
                       <div className="flex items-center gap-2">
                         <div className="w-2 h-2 bg-secondary rounded-full" />

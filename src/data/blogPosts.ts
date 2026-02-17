@@ -13,45 +13,45 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
-    slug: "como-funciona-internacao-involuntaria",
-    title: "Como funciona a internação involuntária no Brasil?",
-    excerpt: "Entenda os aspectos legais, éticos e práticos da internação involuntária. Um guia completo para familiares que buscam ajuda.",
+    slug: "como-funciona-tratamento-dependencia-quimica",
+    title: "Como funciona o tratamento para dependência química no Brasil?",
+    excerpt: "Entenda os aspectos legais, éticos e práticos do tratamento. Um guia completo para famílias que buscam ajuda profissional.",
     content: `
-A internação involuntária é um tema delicado que gera muitas dúvidas entre familiares de pessoas com dependência química. É importante compreender que esse tipo de internação é previsto em lei e existe para proteger tanto o dependente quanto as pessoas ao seu redor.
+O tratamento para dependência química é um processo que envolve diversas etapas e profissionais especializados. Entender como funciona pode ajudar famílias a tomarem decisões mais seguras e conscientes.
 
 ## Base Legal
 
-A Lei Federal nº 10.216/2001 regulamenta a internação involuntária no Brasil. Segundo a legislação, esse tipo de internação pode ocorrer quando há risco iminente à vida do paciente ou de terceiros, e deve ser solicitada por um familiar ou responsável legal.
+A Lei Federal nº 10.216/2001 regulamenta os direitos das pessoas com transtornos mentais, incluindo dependência química. A legislação garante que todo tratamento deve ser realizado com respeito à dignidade e aos direitos do paciente.
 
-## Quando é Necessária?
+## Quando Buscar Tratamento?
 
-A internação involuntária é recomendada em situações como:
+É recomendado buscar ajuda profissional quando:
 
-- Risco de morte por overdose ou comportamento autodestrutivo
-- Agressividade extrema e risco para terceiros
-- Perda total de consciência sobre a própria condição
-- Negação do tratamento mesmo em situação crítica
-- Comorbidades psiquiátricas graves
+- O uso de substâncias está afetando a saúde física e mental
+- Há impacto negativo nas relações familiares e sociais
+- A pessoa não consegue parar por conta própria
+- Surgem problemas no trabalho ou nos estudos
+- A família está sofrendo com a situação
 
-## Procedimentos Necessários
+## Etapas do Tratamento
 
 O processo envolve algumas etapas fundamentais:
 
-1. **Avaliação médica**: Um profissional de saúde mental deve atestar a necessidade da internação
-2. **Documentação**: É necessário apresentar documentos pessoais e laudo médico
-3. **Autorização familiar**: Um responsável legal deve solicitar formalmente a internação
-4. **Comunicação ao Ministério Público**: A internação deve ser comunicada em até 72 horas
-5. **Reavaliação periódica**: A equipe médica deve reavaliar a necessidade regularmente
+1. **Avaliação profissional**: Um especialista avalia a situação e indica o melhor caminho
+2. **Planejamento**: Definição do tipo de tratamento mais adequado ao perfil
+3. **Acolhimento**: Início do programa terapêutico em ambiente seguro
+4. **Tratamento ativo**: Terapias individuais, em grupo e acompanhamento médico
+5. **Reinserção social**: Preparação para retorno à vida em comunidade
 
 ## Direitos do Paciente
 
-Mesmo em internação involuntária, o paciente mantém seus direitos fundamentais:
+Durante o tratamento, o paciente mantém seus direitos fundamentais:
 
 - Tratamento digno e respeitoso
 - Comunicação com familiares
-- Acesso a tratamento adequado
-- Reavaliação médica regular
-- Alta quando não houver mais necessidade
+- Acesso a atendimento adequado
+- Acompanhamento médico regular
+- Alta quando clinicamente indicado
 
 ## O Papel da Família
 
@@ -64,15 +64,15 @@ A família desempenha papel crucial no processo. É fundamental:
 
 ## Suporte da PENIEL
 
-Nossa equipe oferece orientação completa sobre todo o processo, desde a avaliação inicial até o acompanhamento pós-internação. Trabalhamos com clínicas credenciadas que seguem rigorosamente todos os protocolos legais e éticos.
+Nossa equipe oferece orientação completa sobre todo o processo, desde a avaliação inicial até o acompanhamento pós-tratamento. Trabalhamos com clínicas credenciadas que seguem rigorosamente todos os protocolos legais e éticos.
 
-A internação involuntária é uma decisão difícil, mas pode salvar vidas. Entre em contato conosco para uma avaliação gratuita e confidencial.
+Buscar tratamento é um ato de coragem e amor. Entre em contato conosco para uma avaliação gratuita e confidencial.
     `,
     author: "Dr. Roberto Almeida",
     authorRole: "Psiquiatra especialista em dependência química",
     date: "15 de março de 2025",
     readTime: "8 min",
-    category: "Legislação",
+    category: "Orientação",
     image: "/placeholder.svg"
   },
   {
@@ -685,9 +685,9 @@ Dependendo da avaliação:
 ## Barreiras e Como Superá-las
 
 ### "Ele não quer se tratar"
-- Internação involuntária é possível
-- Motivação pode ser trabalhada
-- Não espere "tocar o fundo"
+- Abordagem familiar pode ajudar na conscientização
+- Motivação pode ser trabalhada com profissionais
+- Não espere a situação se agravar
 
 ### "É muito caro"
 - SUS oferece tratamento gratuito
@@ -776,7 +776,7 @@ Oferecemos:
 - **Avaliação gratuita por telefone/WhatsApp**
 - **Orientação 24 horas por dia**
 - **Indicação da melhor opção de tratamento**
-- **Suporte para remoção imediata se necessário**
+- **Suporte logístico para encaminhamento ao tratamento**
 - **Acompanhamento familiar**
 - **Total sigilo e respeito**
 

@@ -109,17 +109,32 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-primary-foreground/20 mt-8 pt-8">
+        {/* Disclaimer Legal - Compliance Meta/Google Ads */}
+        <div className="border-t border-primary-foreground/20 mt-8 pt-6">
+          <p className="text-xs text-primary-foreground/50 text-center max-w-4xl mx-auto leading-relaxed mb-6">
+            <strong>Aviso Legal:</strong> A PENIEL não é uma clínica médica ou unidade de saúde. 
+            Atuamos como intermediadores, conectando famílias a clínicas de recuperação credenciadas. 
+            O conteúdo deste site é informativo e não substitui orientação médica profissional. 
+            Os resultados dos tratamentos podem variar. Todos os dados são protegidos conforme a 
+            LGPD (Lei nº 13.709/2018).
+          </p>
+        </div>
+
+        <div className="border-t border-primary-foreground/10 pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-primary-foreground/60">
-            <p>&copy; 2025 PENIEL. Todos os direitos reservados.</p>
+            <p>&copy; {new Date().getFullYear()} PENIEL. Todos os direitos reservados. CNPJ: XX.XXX.XXX/0001-XX</p>
             <div className="flex gap-4">
               <Link to="/privacidade-e-termos" className="hover:text-secondary transition-colors">
-                Privacidade e Termos
+                Política de Privacidade
               </Link>
               <span>•</span>
-              <a href="#" className="hover:text-secondary transition-colors">
+              <Link to="/privacidade-e-termos" className="hover:text-secondary transition-colors">
+                Termos de Uso
+              </Link>
+              <span>•</span>
+              <Link to="/privacidade-e-termos" className="hover:text-secondary transition-colors">
                 LGPD
-              </a>
+              </Link>
             </div>
           </div>
         </div>

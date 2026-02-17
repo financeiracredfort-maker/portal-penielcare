@@ -164,7 +164,7 @@ const Servicos = () => {
                     {
                       step: "3",
                       title: "Planejamento",
-                      description: "Definição da clínica, documentação necessária e logística de remoção.",
+                      description: "Definição da clínica, documentação necessária e logística de transporte.",
                     },
                     {
                       step: "4",

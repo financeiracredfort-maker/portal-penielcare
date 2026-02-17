@@ -122,7 +122,7 @@ const Footer = () => {
 
         <div className="border-t border-primary-foreground/10 pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-primary-foreground/60">
-            <p>&copy; {new Date().getFullYear()} PENIEL. Todos os direitos reservados. CNPJ: XX.XXX.XXX/0001-XX</p>
+            <p>&copy; {new Date().getFullYear()} PENIEL. Todos os direitos reservados.</p>
             <div className="flex gap-4">
               <Link to="/privacidade-e-termos" className="hover:text-secondary transition-colors">
                 Política de Privacidade
